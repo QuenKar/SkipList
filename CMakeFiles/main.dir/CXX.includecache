@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quenkar/code/Skiplist/main.cpp
+iostream
+-
+skiplist.hpp
+/home/quenkar/code/Skiplist/skiplist.hpp
+
+/home/quenkar/code/Skiplist/skiplist.hpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+cstring
+-
+mutex
+-
+fstream
+-
+
